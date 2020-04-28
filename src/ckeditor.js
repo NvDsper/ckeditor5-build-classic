@@ -7,6 +7,7 @@
 /*eslint-disable */
 import MyCustomUploadAdapterPlugin from './upload.js'
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import CKEditorInspector from '@ckeditor/ckeditor5-inspector';
 
 import './custom.css';		// 引入自定义样式(必须在ClassicEditorBase之后引入,不然会被覆盖掉)
 /* 必备插件 */
@@ -228,7 +229,10 @@ ClassicEditor
 		image: {
 			resizeUnit: 'px'
 		}
-    } )
+    } ).then(editor=>{
+		// console.log(editor)
+		CKEditorInspector.attach(editor)
+	})
     .catch( error => {
         console.log( error );
 	} );

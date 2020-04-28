@@ -40,6 +40,7 @@
     "@ckeditor/ckeditor5-heading": "^16.0.0",
     "@ckeditor/ckeditor5-image": "^16.0.0",
     "@ckeditor/ckeditor5-indent": "^16.0.0",
+    "@ckeditor/ckeditor5-inspector": "^2.0.0",
     "@ckeditor/ckeditor5-link": "^16.0.0",
     "@ckeditor/ckeditor5-list": "^16.0.0",
     "@ckeditor/ckeditor5-media-embed": "^16.0.0",
@@ -74,6 +75,7 @@
     "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
+	"dev": "webpack --mode development -w",
     "build": "webpack --mode production",
     "lint": "eslint --quiet '**/*.js'",
     "stylelint": "stylelint --quiet --allow-empty-input 'theme/**/*.css' 'docs/**/*.css'",
@@ -101,6 +103,7 @@
     "@ckeditor/ckeditor5-font": "^16.0.0",
     "@ckeditor/ckeditor5-highlight": "^16.0.0",
     "@ckeditor/ckeditor5-horizontal-line": "^16.0.0",
+    "@ckeditor/ckeditor5-inspector": "^2.0.0",
     "@ckeditor/ckeditor5-page-break": "^16.0.0",
     "@ckeditor/ckeditor5-remove-format": "^16.0.0",
     "@ckeditor/ckeditor5-typing": "^16.0.0",
