@@ -48,6 +48,11 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';			// 字体格
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';		// 高亮显示
 /* 水平线 */
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';	// 水平线
+
+/* 视频 */
+import Video from './ckeditor5-video/src/video';					// 视频
+import VideoUpload from './ckeditor5-video/src/videoupload';					// 视频
+
 /* 图片 */
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';		//
 import Image from '@ckeditor/ckeditor5-image/src/image';					// 图片
@@ -109,6 +114,9 @@ ClassicEditor.builtinPlugins = [
 	HorizontalLine,				// 水平线
 
 	// PageBreak,					// 分页符
+
+	Video,
+	VideoUpload,
 
 	EasyImage,
 	Image,
@@ -173,6 +181,7 @@ ClassicEditor.defaultConfig = {
 			// 'todoList',			// 待办清单
 			'|',
 			'imageUpload',		// 图片上传
+			'VideoUpload',		// 图片上传
 			'blockQuote',		// 块引用(表示这是一块内容)
 			'insertTable',		// 表格
 			// 'mediaEmbed',		// 媒体插入

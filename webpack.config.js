@@ -28,7 +28,6 @@ module.exports = {
 		libraryTarget: 'umd',
 		libraryExport: 'default'
 	},
-
 	optimization: {
 		minimizer: [
 			new TerserPlugin( {
@@ -80,7 +79,7 @@ module.exports = {
 							},
 							minify: true
 						} )
-					},
+					}
 				]
 			}
 		]
