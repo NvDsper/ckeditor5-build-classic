@@ -50,8 +50,8 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';		// 高亮�
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';	// 水平线
 
 /* 视频 */
-import Video from './ckeditor5-video/src/video';					// 视频
-import VideoUpload from './ckeditor5-video/src/videoupload';					// 视频
+import Video from '@nvdsper/ckeditor5-video/src/video';					// 视频
+import VideoUpload from '@nvdsper/ckeditor5-video/src/videoupload';					// 视频
 
 /* 图片 */
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';		//

@@ -48,6 +48,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "^16.0.0",
     "@ckeditor/ckeditor5-table": "^16.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^16.0.0",
+    "@nvdsper/ckeditor5-video": "^1.0.0",
     "ckeditor5-build-classic": "^1.0.0",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
