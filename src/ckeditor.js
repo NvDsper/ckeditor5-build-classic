@@ -167,6 +167,7 @@ ClassicEditor.defaultConfig = {
 			'fontBackgroundColor',	// 字体背景色
 			'|',
 			'highlight',		// 高亮
+			'horizontalLine',		// 水平线
 			/* '|',
 			'MathType', 		// 数学和公式
 			'ChemType', */
@@ -187,6 +188,26 @@ ClassicEditor.defaultConfig = {
 			// 'mediaEmbed',		// 媒体插入
 			'undo',				// 撤销
 			'redo'				// 重做
+		]
+	},
+	fontSize: {
+		options: [
+			12,
+			14,
+			'default',
+			18,
+			20,
+			22
+		]
+	},
+	heading: {
+		options: [
+			{ model: 'paragraph', title: '段落', class: 'ck-heading_paragraph' },
+			{ model: 'heading1', view: 'h1', title: '标题1', class: 'ck-heading_heading1' },
+			{ model: 'heading2', view: 'h2', title: '标题2', class: 'ck-heading_heading2' },
+			{ model: 'heading3', view: 'h3', title: '标题3', class: 'ck-heading_heading3' },
+			{ model: 'heading4', view: 'h4', title: '标题4', class: 'ck-heading_heading4' },
+			{ model: 'heading5', view: 'h5', title: '标题5', class: 'ck-heading_heading5' }
 		]
 	},
 	Highlight: {

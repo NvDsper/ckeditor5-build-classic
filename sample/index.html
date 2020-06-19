@@ -25,6 +25,14 @@
 	<video src="http://dltech.f3322.net:2048/pyamc/config-service/file/mediaVideo/video_1587873051550.mp4" controls></video>
 	<p>You can use this sample to validate whether your <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html">custom build</a> works fine.</p>
 </div>
+<div class="content"></div>
+<button id="output" onclick="outPut()">导出</button>
 <script src="../build/ckeditor.js"></script>
 </body>
+<script>
+	function outPut(){
+		getData()
+		document.getElementsByClassName('content').innerHtml(data)
+	}
+</script>
 </html>

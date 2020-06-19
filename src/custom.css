@@ -6,28 +6,29 @@
     --ck-font-size-base: 14px;
 
     /* Helper variables to avoid duplication in the colors. */
-    --ck-custom-background: hsl(208, 90%, 62%);
-    --ck-custom-foreground: hsl(208, 90%, 62%);
-    --ck-custom-border: hsl(208, 90%, 62%);
+    --ck-custom-background: rgb(83, 168, 255);
+    --ck-custom-foreground: #909399;
+    --ck-custom-border: rgb(83, 168, 255);
     --ck-custom-white: hsl(0, 0%, 100%);
+    --ck-custom-hover: rgb(140, 197, 255);
 
     /* -- Overrides generic colors. ------------------------------------------------------------- */
 
-    --ck-color-base-foreground: var(--ck-custom-background);
-    --ck-color-focus-border: hsl(208, 90%, 62%);
+    --ck-color-base-foreground: var(--ck-custom-hover); /* hover的颜色 */
+    --ck-color-focus-border: rgb(83, 168, 255);
     --ck-color-text: hsl(0, 0%, 98%);
     --ck-color-shadow-drop: hsla(0, 0%, 0%, 0.2);
     --ck-color-shadow-inner: hsla(0, 0%, 0%, 0.1);
 
     /* -- Overrides the default .ck-button class colors. ---------------------------------------- */
 
-    --ck-color-button-default-background: var(--ck-custom-background);
+    --ck-color-button-default-background: var(--ck-custom-background); /* 默认 */
     --ck-color-button-default-hover-background: hsl(270, 1%, 22%);
     --ck-color-button-default-active-background: hsl(270, 2%, 20%);
     --ck-color-button-default-active-shadow: hsl(270, 2%, 23%);
     --ck-color-button-default-disabled-background: var(--ck-custom-background);
 
-    --ck-color-button-on-background: var(--ck-custom-foreground);
+    --ck-color-button-on-background: var(--ck-custom-hover);
     --ck-color-button-on-hover-background: hsl(255, 4%, 16%);
     --ck-color-button-on-active-background: hsl(255, 4%, 14%);
     --ck-color-button-on-active-shadow: hsl(240, 3%, 19%);
